@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Acomodamiento de area */
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+/* Grilla General */
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: repeat(3,auto);
+}
+
+/* Codigo General */
+/* Header */
+.colorHeader{
+    background-color: #212529;
+}
+
+
+/* Main */
+main{
+    background-color: rgb(116, 164, 204);
+}
+
+/* Pie de pagina */
+footer{
+    background-color: rgb(62, 66, 70);
+
+}
+
+/* Responsive */
+@media (min-width: 576px){
+
+}
+@media (min-width: 768px){
+
+}
+@media (min-width: 992px){
+    
+}
