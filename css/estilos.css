@@ -37,9 +37,35 @@ footer{
 }
 
 
+
 /* Main */
 main{
     background-color: rgb(116, 164, 204);
+    height: auto;
+    padding: 1em 2em;
+}
+.button{
+    background-color: brown;
+    text-decoration: none;
+    padding: 10px 23px;
+    border-radius: 2em;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.perfilImg{
+    border-radius: 50%;
+    
+}
+.container-info{
+    border: 3px solid white;
+    padding: 3%;
+    margin: 0.8em 0;
+}
+iframe{
+    width: auto;
 }
 
 /* Pie de pagina */
