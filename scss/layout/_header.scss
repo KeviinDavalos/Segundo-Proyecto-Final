@@ -1,0 +1,11 @@
+.container-fluid{
+    background-color: #212529;
+    ul{
+        .nav-link{
+            &:hover{
+                border-bottom: 2px solid white;
+            }
+        }
+    }
+    
+}
