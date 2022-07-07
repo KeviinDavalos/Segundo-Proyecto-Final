@@ -1,6 +1,8 @@
-@import './layout/generales';
-@import './layout/grid';
-@import './layout/partials';
-@import './layout/main';
-@import './layout/header';
-@import './layout/footer';
+@import './base/maps';
+@import './base/extend';
+@import './base/mixins';
+@import './base/generales';
+@import './partials/grid';
+@import './partials/header';
+@import './partials/main';
+@import './partials/footer';
